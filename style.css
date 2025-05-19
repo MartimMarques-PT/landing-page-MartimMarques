@@ -1,1 +1,68 @@
+/* this is some magical font-importing.  
+you'll learn about it later. */
+@import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    margin: 0px;
+    font-family: 'Roboto';
+    background-color: #1F2937;
+}
+
+.logo {
+     width: 60px;
+ }
+.nav_bar {
+    background-color: #1F2937;
+    padding-top: 10%;
+    justify-content: space-evenly; 
+ }
+
+a {
+    text-decoration: none;  
+    font-size: 15px;
+    color: #e5e7eb;
+    margin: 10px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.main_text {
+    height: 48px;
+    color: #F9FAF8;
+    font-weight: 900px;
+}
+
+.secundary_text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button {
+    background-color: #3882f2;
+    border: 0;
+    color: #f9faf8;
+    padding: 7px 25px;
+    border-radius: 5px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.links {
+    list-style-type: none;
+
+}
+
+.placeholder {
+    width: 100px;
+    margin-right: auto;
+}
 
